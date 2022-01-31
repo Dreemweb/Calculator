@@ -1,0 +1,71 @@
+
+
+
+/* COLOUR USE
+#3598DB
+ #94CDDE
+ #1F2935
+ #F6F6FC
+*/
+/*BASIC BODY MODIFICATION*/
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #3598DB  ;
+}
+/* DESIGN FOR THE WHOLE CALCULATER */
+.calculator{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: 95%;
+ margin-top: 25%;
+ border-radius: 5px;
+ padding: 4px;
+ margin: auto;
+ margin-top: 25%;
+background-color: #94CDDE ; 
+display: inline-block;
+}
+.calculator-1{
+  margin-left: 3%;
+}
+/* DESIGN FOR RESULTING SCREEN*/
+#screen{
+ background-color:#1F2935;
+ width:95%;
+ height:50px;
+ font-size: 50px;
+ border-radius: 5px;
+ color: white;
+}
+/* DESIGN FOR BUTTON*/
+button {
+ background-color:#F6F6FC;
+ width: 20%;
+ font-size:30px ;
+ margin-right: 4%;
+ height: 2em;
+ border-radius:15px;
+}
+/* DESIGN FOR COMPUTER AND OTHER BIG DEVICES*/
+@media screen and (min-width: 480px) {
+  button {
+    height: 5em;
+    font-size: 35px;
+    border-radius:20px;
+  }
+}
+@media screen and (min-width: 480px) {
+  #display{
+    height: 2em;
+  border-radius: 10px;
+  font-size:70px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .calculator{
+   padding: 1%;
+    
+  }
+}
